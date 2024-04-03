@@ -1,0 +1,162 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ProductCard.css */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.product-title {
+  font-weight: bold;
+}
+
+.product-company {
+  color: #666;
+}
+
+.product-category {
+  margin-top: 5px;
+  color: #666;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.product-rating {
+  margin-top: 5px;
+}
+
+.product-discount {
+  margin-top: 5px;
+}
+
+.product-availability {
+  margin-top: 5px;
+}
+
+/* Pagination.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-link {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+}
+
+.page-link.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.page-link:hover {
+  background-color: #f8f9fa;
+}
+
+/* Filter.css */
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* ProductDetails.css */
+.product-details-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product-details-card {
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.product-details-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-details-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.product-details-company {
+  color: #666;
+  text-align: center;
+}
+
+.product-details-category {
+  margin-top: 10px;
+  color: #666;
+  text-align: center;
+}
+
+.product-details-price {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-details-rating {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-details-discount {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-details-availability {
+  margin-top: 10px;
+  text-align: center;
+}
